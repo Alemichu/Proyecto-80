@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LISTA DE INVITADOS</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<center>
+		<h2>LISTA DE INVITADOS</h2>
+
+		<div id="rows">
+
+			<input type=" text" placeholder="INGRESA TU NOMBRE" id="name1">
+			<button onclick="submit()" id="submit_button">
+				Enviar
+			</button><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+			<hr>
+
+			<div id="display_name">
+			</div>
+
+			<hr>
+
+			<div id="Show1"><h3 id="hd1">LISTA DE INVITADOS</h3>
+			<button onclick="show()" id="show">MOSTRAR</button>
+		    <p id="p1"></p></div>
+
+			<hr>
+
+			<button onclick="sorting()" id="sort_button">
+			ORDENAR LISTA
+			</button>
+
+			<div id="sorted"></div>
+
+		</div>
+
+		<hr>
+
+		<input type="text" placeholder="BUSCAR PERSONA" id="s1">&nbsp;
+		<button onclick="searching()" id="srch">BUSCAR</button>
+
+		<p id="p2"></p>
+
+	    </center>
+
+	</body>
+</html>
